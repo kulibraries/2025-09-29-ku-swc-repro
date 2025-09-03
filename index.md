@@ -9,7 +9,7 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "38.955227"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-95.246941"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "September 29, October 1, and October 3, 2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "September 29, October 1 & 3, 2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "1:00 pm - 4:30 pm"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2025-09-29      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2025-10-03        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
@@ -431,7 +431,7 @@ please preview your site before committing, and make sure to run
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
+  To participate in this
   {% if site.carpentry == "swc" %}
   Software Carpentry
   {% elsif site.carpentry == "dc" %}
@@ -440,8 +440,7 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to software as described below.
-  In addition, you will need an up-to-date web browser.
+  you will need access to an up-to-date web browser. We will access the Unix Shell and Git through remote computing instances and GitHub through a browser. You do not need to install anything on your computer.
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
@@ -466,7 +465,6 @@ to include the relevant installation instructions.
 {% comment %}
 These are the installation instructions for the tools used
 during the workshop.
-{% endcomment %}
 
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
@@ -479,3 +477,4 @@ Please check the "Setup" page of
 <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for instructions to follow
 to obtain the software and data you will need to follow the lesson.
 {% endif %}
+{% endcomment %}
