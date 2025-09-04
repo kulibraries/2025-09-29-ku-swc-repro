@@ -81,7 +81,7 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <h2 id="registration">Registration</h2>
 
-<p>This is an <strong>in-person</strong> workshop on KU's Lawrence campus. Registration will open by the second week of September 2025.</p>
+<p>This is an <strong>in-person</strong> workshop on KU's Lawrence campus. <a href="https://lib.ku.edu/software-carpentry" target="_blank">Registration is available through KU Libraries.</a> Registration will remain open until the workshop reaches capacity.</p>
 
 <h2 id="general">General Information</h2>
 
