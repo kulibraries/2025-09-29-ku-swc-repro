@@ -440,7 +440,7 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to an up-to-date web browser. We will access the Unix Shell and Git through remote computing instances and GitHub through a browser. You do not need to install anything on your computer.
+  you will need access to an up-to-date web browser. We will access the Unix Shell and Git through remote computing instances and GitHub through a browser. You do not need to install anything on your computer, but you will need to create a free <a href="https://github.com/" target="_blank">GitHub</a> account if you don't already have one.
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
